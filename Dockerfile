@@ -1,6 +1,6 @@
 FROM node:latest
 WORKDIR /usr/src/app
-COPY Reactwebapp/* /
+COPY React-Gym-Website/* /
 RUN npm install
 EXPOSE 3000
 CMD [ "npm","start" ]
